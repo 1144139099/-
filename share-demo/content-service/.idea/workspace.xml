@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21ed9f61-d897-420a-969e-6e34fb20625c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/ContentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/config/LogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/controller/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/ShareDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/openfeign/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/openfeign/fallback/UserServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/NoticeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/ShareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hlh/content/ContentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/RoutesConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/test/java/com/hlh/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/test/java/com/hlh/user/UserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/ContentCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/config/LogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/controller/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/domain/dto/ShareDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/domain/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/domain/entity/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/openfeign/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/openfeign/fallback/UserServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/repository/NoticeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/repository/ShareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/servicec/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/servicec/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/servicec/impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/java/com/hlh/content/servicec/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/content-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/gateway/src/main/java/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/gateway/src/main/java/gateway/RoutesConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/domain/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/java/com/hlh/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../share-project/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="F:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FL6XPpV5TEcpod9mORECZGOk5F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\微服务\share-demo\content-service\src\main\resources" />
+      <recent name="F:\微服务\share-demo\content-service\src\main\java\com\ehlh\content" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ContentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="content-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlh.content.ContentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21ed9f61-d897-420a-969e-6e34fb20625c" name="Changes" comment="" />
+      <created>1664259056527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664259056527</updated>
+      <workItem from="1664259058015" duration="1007000" />
+      <workItem from="1664261741695" duration="1758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

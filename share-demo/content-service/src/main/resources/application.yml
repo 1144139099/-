@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+logging:
+  level:
+    com.hlh.content.openfeign.UserService: debug
+
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        namespace: dev
+        register-enabled: true
+

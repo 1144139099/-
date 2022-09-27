@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        namespace: dev
+        group: DEFAULT_GROUP
+        timeout: 5000
+        config-long-poll-timeout: 10000
+        config-retry-time: 2000
+        max-retry: 3
+        refresh-enabled: true
+#    sentinel:
+#      transport:
+#        port: 8719
+#        dashboard: localhost:8080
+#        extension-configs:
+#          - dataId: redis-config.yml
+#            group: EXT_GROUP
+#            refresh: true
+

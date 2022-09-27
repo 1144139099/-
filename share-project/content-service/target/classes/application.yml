@@ -1,0 +1,48 @@
+server:
+  port: 8082
+#spring:
+#  sleuth:
+#    sampler:
+#      probability: 1.0
+#      rate: 1000
+#  zipkin:
+#    sender:
+#      type: rabbit
+#    rabbitmq:
+#      addresses: localhost:5672
+#      queue: zipkin
+#spring:
+#  application:
+#    name: content-service
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    timezone: GMT+8
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#      username: nacos
+#      password: nacos
+#  datasource:
+#    url: jdbc:mysql://124.221.232.15:3306/share
+#    hikari:
+#      username: root
+#      password: hlh320123678
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    com.hlh.content.openfeign.UserService: debug
+
+#feign:
+#  client:
+#    config:
+#      default:
+#        connectTimeout: 1000
+#        readTimeout: 5000
+#      user-service:
+#        connectTimeout: 1000
+#        readTimeout: 2000
+#  circuitbreaker:
+#    enabled: true
+
+

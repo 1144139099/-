@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+#spring:
+#  application:
+#    name: user-service
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    timezone: GMT+8
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#      username: nacos
+#      password: nacos
+#  datasource:
+#    url: jdbc:mysql://124.221.232.15:3306/share
+#    hikari:
+#      username: root
+#      password: hlh320123678
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+
