@@ -44,7 +44,7 @@ public class Share {
 
     private Integer buyCount;
 
-    private Integer showFlag;
+    private Boolean showFlag;
 
     private String auditStatus;
 

@@ -1,0 +1,34 @@
+server:
+  port: 8151
+spring:
+  application:
+    name: cloud-goods-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      password: nacos
+      username: nacos
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.221.232.15:3306/test_distribution_goods_db
+    username: root
+    password: hlh320123678
+seata:
+  application-id: goods-service-demo
+  enabled: true
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      namespace: public
+      group: DEFAULT_GROUP
+      cluster: default
+      username: nacos
+      password: nacos
+  tx-service-group: seata-server-group
+  service:
+    vgroup-mapping:
+      seata-server-group: default
+  enable-auto-data-source-proxy: false

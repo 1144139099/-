@@ -1,0 +1,38 @@
+server:
+  port: 9002
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+      file-size-threshold: 500MB
+  datasource:
+    url: jdbc:mysql://rm-bp1521ae046v8xqd6yo.mysql.rds.aliyuncs.com:3306/zhang_weipan?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    hikari:
+      username: niit
+      password: Niit@2022
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  application:
+    name: weipan-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.200.120.36:8848
+        namespace: test
+      password: nacos
+      username: nacos
+# MinIo?????
+minio:
+  endpoint: http://124.221.232.15:9090
+  accessKey: admin
+  secretKey: admin123
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  # show sql
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

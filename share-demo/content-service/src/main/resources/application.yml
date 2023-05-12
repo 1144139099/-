@@ -5,7 +5,10 @@ logging:
   level:
     com.hlh.content.openfeign.UserService: debug
 
-
+rocketmq:
+  name-server: 124.221.232.15:9876
+  producer:
+    group: test-group
 spring:
   cloud:
     nacos:

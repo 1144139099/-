@@ -5,16 +5,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ed9f61-d897-420a-969e-6e34fb20625c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../login-test/src/main/java/com/hlh/logintest/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../login-test/src/main/java/com/hlh/logintest/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../login-test/src/main/java/com/hlh/logintest/controller/testController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/auth/AuthAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/auth/CheckAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/auth/CheckLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/NoteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/ShareAuditDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/ShareQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/ShareVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/dto/UserAddBonusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/BonusEventLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/MidUserShare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/enums/AuditStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/BonusEventLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/MidUserShareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/rocketmq/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/rocketmq/SyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/BonusEventLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/MidUserShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/BonusEventLogServicelmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/MidUserShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/utils/JwtOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/controller/FileApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/java/com/hlh/file/utils/AliyunResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../file-service/src/main/resources/aliyun.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/config/DynamicRoutesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/config/DynamicRoutesLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/config/GatewayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/auth/AuthAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/auth/CheckAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/auth/CheckLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/dto/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/dto/UserAddBonusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/dto/UserAddBonusMsgDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/domain/entity/BonusEventLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/exception/SecutityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/handler/GlobalExceptionErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/listener/AddBonusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/listener/SubtractBonusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/repository/BonusEventLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/utils/JwtOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/src/main/java/com/hlh/goods/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/src/main/java/com/hlh/goods/config/SeataConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/src/main/java/com/hlh/goods/controller/goodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/src/main/java/com/hlh/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/goods-service-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/config/SeataConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/controller/CloudOrderAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/openfeign/GoodsDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/openfeign/ShopCartDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/java/com/hlh/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/order-service-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/src/main/java/com/hlh/shopcart/ShopCartServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/src/main/java/com/hlh/shopcart/config/SeataConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/src/main/java/com/hlh/shopcart/controller/CloudShopCartApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/src/main/java/com/hlh/shopcart/service/ShopCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba-distribution-demo/shopcart-service-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/auth/AuthAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/auth/CheckAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/auth/CheckLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/config/AuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/config/MangerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/controller/CallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/EmailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/Login1Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/PhoneDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/PhoneLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/PhoneRegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/vo/EmailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/vo/PasswordVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/vo/UserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/domain/dto/vo/UserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/utils/JwtOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../user-cloud/src/main/java/com/hlh/usercloud/utils/MinIoTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/common/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/common/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/controller/weipanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/general/domain/Weipan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/general/mapper/WeipanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/general/service/WeipanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/general/service/impl/WeipanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/java/com/hlh/weipanserver/utils/MinIoTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weipan-server/src/main/resources/mapper/WeipanMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hlh/content/controller/ShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/controller/ShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/domain/entity/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/ShareRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/repository/ShareRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/ShareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/ShareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/ShareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hlh/content/servicec/impl/ShareServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/hlh/gateway/RoutesConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/hlh/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../share-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../share-project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -40,20 +165,60 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hlh/content/auth" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.48519042" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\微服务\share-demo\content-service\src\main\java\com\hlh\content\auth" />
       <recent name="F:\微服务\share-demo\content-service\src\main\resources" />
       <recent name="F:\微服务\share-demo\content-service\src\main\java\com\ehlh\content" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\微服务\share-demo\content-service\src\main\java\com\hlh\content\rocketmq" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hlh.content.utils" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ContentServiceApplication">
+    <configuration name="AsyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hlh.content.rocketmq.AsyncProducer" />
+      <module name="content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlh.content.rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hlh.content.rocketmq.SyncProducer" />
+      <module name="content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hlh.content.rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="content-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hlh.content.ContentServiceApplication" />
@@ -61,6 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AsyncProducer" />
+        <item itemvalue="Application.SyncProducer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,11 +242,50 @@
       <option name="presentableId" value="Default" />
       <updated>1664259056527</updated>
       <workItem from="1664259058015" duration="1007000" />
-      <workItem from="1664261741695" duration="2900000" />
+      <workItem from="1664261741695" duration="3607000" />
+      <workItem from="1664283162358" duration="2156000" />
+      <workItem from="1664871757331" duration="1604000" />
+      <workItem from="1664880046719" duration="3617000" />
+      <workItem from="1664933550589" duration="3182000" />
+      <workItem from="1664948740682" duration="1193000" />
+      <workItem from="1664952680851" duration="2607000" />
+      <workItem from="1665013553857" duration="6194000" />
+      <workItem from="1665029669883" duration="1997000" />
+      <workItem from="1665389198149" duration="76000" />
+      <workItem from="1665638316624" duration="2930000" />
+      <workItem from="1665983537047" duration="1326000" />
+      <workItem from="1666069737355" duration="6978000" />
+      <workItem from="1666087530423" duration="5015000" />
+      <workItem from="1666223834216" duration="32573000" />
+      <workItem from="1666614077219" duration="4195000" />
+      <workItem from="1666621392802" duration="1328000" />
+      <workItem from="1666662973430" duration="2704000" />
+      <workItem from="1666680695198" duration="9000" />
+      <workItem from="1666681255710" duration="9000" />
+      <workItem from="1666683957479" duration="163000" />
+      <workItem from="1666684313629" duration="234000" />
+      <workItem from="1667462473663" duration="1293000" />
+      <workItem from="1667465051005" duration="919000" />
+      <workItem from="1667711649812" duration="133000" />
+      <workItem from="1667798129379" duration="684000" />
+      <workItem from="1667806784835" duration="1352000" />
+      <workItem from="1667874393292" duration="624000" />
+      <workItem from="1667894491704" duration="1728000" />
+      <workItem from="1667897424064" duration="1102000" />
+      <workItem from="1669095907361" duration="17000" />
+      <workItem from="1669098176534" duration="1263000" />
+      <workItem from="1672796452504" duration="164000" />
+      <workItem from="1672797427876" duration="903000" />
+      <workItem from="1677296545345" duration="7000" />
+      <workItem from="1677296586532" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

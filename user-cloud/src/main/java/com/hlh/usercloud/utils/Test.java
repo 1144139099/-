@@ -1,0 +1,18 @@
+//package com.hlh.usercloud.utils;
+//
+//import io.jsonwebtoken.Claims;
+//import io.jsonwebtoken.Jwts;
+//
+//import java.util.Date;
+//import java.util.HashMap;
+//import java.util.Map;
+//
+//public class Test {
+//    public static void main(String[] args) {
+//        String secret = "991ef007ae91853fa756537a7724013e";
+//        String jsonwebtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cGRhdGVkX2F0IjoiMjAyMi0xMS0yMVQxMzowNTozMS40NDRaIiwiYWRkcmVzcyI6eyJjb3VudHJ5IjpudWxsLCJwb3N0YWxfY29kZSI6bnVsbCwicmVnaW9uIjpudWxsLCJmb3JtYXR0ZWQiOm51bGx9LCJwaG9uZV9udW1iZXJfdmVyaWZpZWQiOmZhbHNlLCJwaG9uZV9udW1iZXIiOiIxMzg1MTgyNjE2NyIsImxvY2FsZSI6bnVsbCwiem9uZWluZm8iOm51bGwsImJpcnRoZGF0ZSI6bnVsbCwiZ2VuZGVyIjoiRiIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZW1haWwiOiIxMTQ0MTM5MDk5QHFxLmNvbSIsIndlYnNpdGUiOm51bGwsInBpY3R1cmUiOiJodHRwczovL2ZpbGVzLmF1dGhpbmcuY28vdXNlci1jb250ZW50cy9waG90b3MvMDcyYmYwZGMtOGJiYi00OGQzLTgyNjYtOWNlNzcwYTI4ZDc0LmpwZyIsInByb2ZpbGUiOm51bGwsInByZWZlcnJlZF91c2VybmFtZSI6bnVsbCwibmlja25hbWUiOiLmsZ_miLflt53lkbHlkbEiLCJtaWRkbGVfbmFtZSI6bnVsbCwiZmFtaWx5X25hbWUiOm51bGwsImdpdmVuX25hbWUiOm51bGwsIm5hbWUiOiLkvq_mn5AiLCJzdWIiOiI2MzY5ZjYwYmNiNzdmZmQzNzFjNDBhMjQiLCJleHRlcm5hbF9pZCI6bnVsbCwidW5pb25pZCI6bnVsbCwidXNlcm5hbWUiOiJIbGgiLCJkYXRhIjp7InR5cGUiOiJ1c2VyIiwidXNlclBvb2xJZCI6IjYzNjhiMTA2YzU1YzhiMzkzNGE4ZTBmZSIsImFwcElkIjoiNjM2OWZlOGZmY2M3YTZjYzlmMjAyN2FjIiwiaWQiOiI2MzY5ZjYwYmNiNzdmZmQzNzFjNDBhMjQiLCJ1c2VySWQiOiI2MzY5ZjYwYmNiNzdmZmQzNzFjNDBhMjQiLCJfaWQiOiI2MzY5ZjYwYmNiNzdmZmQzNzFjNDBhMjQiLCJwaG9uZSI6IjEzODUxODI2MTY3IiwiZW1haWwiOiIxMTQ0MTM5MDk5QHFxLmNvbSIsInVzZXJuYW1lIjoiSGxoIiwidW5pb25pZCI6bnVsbCwib3BlbmlkIjpudWxsLCJjbGllbnRJZCI6IjYzNjhiMTA2YzU1YzhiMzkzNGE4ZTBmZSJ9LCJ1c2VycG9vbF9pZCI6IjYzNjhiMTA2YzU1YzhiMzkzNGE4ZTBmZSIsImF1ZCI6IjYzNjlmZThmZmNjN2E2Y2M5ZjIwMjdhYyIsImV4cCI6MTY3MDI0NjM2NiwiaWF0IjoxNjY5MDM2NzY2LCJpc3MiOiJodHRwczovL3NtYXJ0c2Nob29sLmF1dGhpbmcuY24vb2lkYyJ9.ATRaHtDUuL4thclY9wSyhSnlX06jbAbE0sHb7J1h54I";
+//        Claims body = Jwts.parser().setSigningKey(secret.getBytes()).parseClaimsJws(jsonwebtoken).getBody();
+//        Map<String,String> claimsMap = ;
+//        System.out.println(body);
+//    }
+//}

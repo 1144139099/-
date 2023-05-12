@@ -1,0 +1,14 @@
+server:
+  port: 8088
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 124.221.232.15:8848
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        namespace: prod
+        register-enabled: true
+  jpa:
+    open-in-view: false

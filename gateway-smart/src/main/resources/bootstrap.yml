@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+    # 处理跨域
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods: "*"
+        add-to-simple-url-handler-mapping: true
+    nacos:
+      discovery:
+        server-addr: 124.221.232.15:8848
+        password: nacos
+        username: nacos
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        register-enabled: true
+      config:
+        server-addr: 124.221.232.15:8848
+        file-extension: yml
+        namespace: dev
+        timeout: 5000
+        config-retry-time: 100000
+        config-long-poll-timeout: 1000
+        max-retry: 3
+        refresh-enabled: true
+        enable-remote-sync-config: true

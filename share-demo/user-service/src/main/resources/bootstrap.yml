@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: user-service
   cloud:
@@ -7,7 +9,7 @@ spring:
         server-addr: 124.221.232.15:8848
         file-extension: yml
         namespace: dev
-        group: DEFAULT_GROUP
+#        group: DEFAULT_GROUP
         timeout: 5000
         config-long-poll-timeout: 10000
         config-retry-time: 2000

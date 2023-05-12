@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+jwt:
+  secret: aaaaaaaaaabbbbbbbbbbbcccccccccccddddddd
+  # 有效期
+  expire-time-in-second: 1209600
+
+rocketmq:
+  name-server: 124.221.232.15:9876
